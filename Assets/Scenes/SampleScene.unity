@@ -240,8 +240,8 @@ GameObject:
   - component: {fileID: 333444709}
   - component: {fileID: 333444708}
   m_Layer: 0
-  m_Name: Coin (5)
-  m_TagString: Untagged
+  m_Name: Jade
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -290,7 +290,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea4c3ad90dac940ac8ddc119ed49c632, type: 2}
+  - {fileID: 2100000, guid: 44d3a4e10830d453bb9c79a1e2232ed0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -579,8 +579,8 @@ GameObject:
   - component: {fileID: 448404423}
   - component: {fileID: 448404427}
   m_Layer: 0
-  m_Name: Coin
-  m_TagString: Untagged
+  m_Name: Ruby
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -629,7 +629,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea4c3ad90dac940ac8ddc119ed49c632, type: 2}
+  - {fileID: 2100000, guid: 2672d0d55f2a04cc9b1dbf4ddd4fe873, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -807,8 +807,8 @@ GameObject:
   - component: {fileID: 827124993}
   - component: {fileID: 827124992}
   m_Layer: 0
-  m_Name: Coin (4)
-  m_TagString: Untagged
+  m_Name: Topaz
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -857,7 +857,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea4c3ad90dac940ac8ddc119ed49c632, type: 2}
+  - {fileID: 2100000, guid: a0527f9a63a7e4ff28a248947e5a1ee3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -964,8 +964,8 @@ GameObject:
   - component: {fileID: 1070467925}
   - component: {fileID: 1070467924}
   m_Layer: 0
-  m_Name: Coin (2)
-  m_TagString: Untagged
+  m_Name: Amethyst
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea4c3ad90dac940ac8ddc119ed49c632, type: 2}
+  - {fileID: 2100000, guid: 5f949066eeac1464a87912dc16fb6e54, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1072,8 +1072,8 @@ GameObject:
   - component: {fileID: 1159077774}
   - component: {fileID: 1159077773}
   m_Layer: 0
-  m_Name: Coin (3)
-  m_TagString: Untagged
+  m_Name: Gold
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,8 +1638,8 @@ GameObject:
   - component: {fileID: 1834614026}
   - component: {fileID: 1834614025}
   m_Layer: 0
-  m_Name: Coin (1)
-  m_TagString: Untagged
+  m_Name: Moonstone
+  m_TagString: TriggerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1688,7 +1688,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea4c3ad90dac940ac8ddc119ed49c632, type: 2}
+  - {fileID: 2100000, guid: 9808550bebc924386bd4108b8660ff4f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
