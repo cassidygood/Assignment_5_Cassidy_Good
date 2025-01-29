@@ -328,13 +328,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333444707}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.25346753, z: -0, w: 0.9673439}
+  m_LocalRotation: {x: -0, y: 0.110507615, z: -0, w: 0.9938753}
   m_LocalPosition: {x: 10.43, y: -0.319, z: 10}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 29.366, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 12.689, z: 0}
 --- !u!1 &344986238
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +577,7 @@ GameObject:
   - component: {fileID: 448404425}
   - component: {fileID: 448404424}
   - component: {fileID: 448404423}
+  - component: {fileID: 448404427}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -673,6 +674,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.051, y: 56.983, z: 0.036}
+--- !u!114 &448404427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448404422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81571d290f32b417f9b9778081723f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &568561258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,7 +1477,7 @@ GameObject:
   - component: {fileID: 1663015729}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1713,13 +1726,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834614024}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.19329646, z: -0, w: 0.98114043}
+  m_LocalRotation: {x: -0, y: 0.6787874, z: -0, w: 0.7343349}
   m_LocalPosition: {x: 4.4, y: -0.319, z: 6.94}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 22.29, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 85.498, z: 0}
 --- !u!1 &2101740789
 GameObject:
   m_ObjectHideFlags: 0
