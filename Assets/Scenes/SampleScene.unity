@@ -262,7 +262,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -330,7 +330,7 @@ Transform:
   m_GameObject: {fileID: 333444707}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.110507615, z: -0, w: 0.9938753}
-  m_LocalPosition: {x: 10.43, y: -0.319, z: 10}
+  m_LocalPosition: {x: 10.43, y: -0.443, z: 10}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -358,7 +358,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -605,7 +605,6 @@ GameObject:
   - component: {fileID: 448404425}
   - component: {fileID: 448404424}
   - component: {fileID: 448404423}
-  - component: {fileID: 448404427}
   - component: {fileID: 448404428}
   m_Layer: 0
   m_Name: Ruby
@@ -629,7 +628,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -697,24 +696,12 @@ Transform:
   m_GameObject: {fileID: 448404422}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0005411972, y: 0.47702897, z: 0.00006569631, w: 0.8788874}
-  m_LocalPosition: {x: -4.41, y: -0.319, z: -6.49}
+  m_LocalPosition: {x: -4.41, y: -0.423, z: -6.49}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.051, y: 56.983, z: 0.036}
---- !u!114 &448404427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448404422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81571d290f32b417f9b9778081723f78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &448404428
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -737,7 +724,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -885,7 +872,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -953,7 +940,7 @@ Transform:
   m_GameObject: {fileID: 827124991}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.19839971, z: -0, w: 0.98012125}
-  m_LocalPosition: {x: -9.4, y: -0.319, z: 5.9}
+  m_LocalPosition: {x: -9.4, y: -0.45, z: 5.9}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -981,7 +968,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1070,7 +1057,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1138,7 +1125,7 @@ Transform:
   m_GameObject: {fileID: 1070467923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.27122706, z: -0, w: 0.9625154}
-  m_LocalPosition: {x: -11.14, y: -0.319, z: -10.01}
+  m_LocalPosition: {x: -11.14, y: -0.446, z: -10.01}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1166,7 +1153,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1206,7 +1193,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1274,7 +1261,7 @@ Transform:
   m_GameObject: {fileID: 1159077772}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.8432674, z: -0, w: 0.53749436}
-  m_LocalPosition: {x: 10.57, y: -0.319, z: -6.49}
+  m_LocalPosition: {x: 10.57, y: -0.417, z: -6.49}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1302,7 +1289,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1615,6 +1602,7 @@ GameObject:
   - component: {fileID: 1663015724}
   - component: {fileID: 1663015728}
   - component: {fileID: 1663015729}
+  - component: {fileID: 1663015730}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1765,6 +1753,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1663015730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663015723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81571d290f32b417f9b9778081723f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1834614024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1800,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1868,7 +1868,7 @@ Transform:
   m_GameObject: {fileID: 1834614024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6787874, z: -0, w: 0.7343349}
-  m_LocalPosition: {x: 4.4, y: -0.319, z: 6.94}
+  m_LocalPosition: {x: 4.4, y: -0.453, z: 6.94}
   m_LocalScale: {x: 0.25, y: 0.64255, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1896,7 +1896,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0

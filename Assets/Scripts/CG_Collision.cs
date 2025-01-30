@@ -10,7 +10,7 @@ public class CG_Collision : MonoBehaviour
         {
             // Destroy the object that collided with this object
             // Destroy(other.gameObject);
-            // print("Triggered Object Destroyed");
+            print("Triggered Object Destroyed");
 
             // Show trigger feedback in Console Window
             print("Trigger Entered");
@@ -36,7 +36,7 @@ public class CG_Collision : MonoBehaviour
         if (other.CompareTag("TriggerObject"))
         {
             // Destroy the object that collided with this object
-            Destroy(other.gameObject);
+            // Destroy(other.gameObject);
 
             // Show trigger feedback in Console Window
             print("Trigger Exit");
