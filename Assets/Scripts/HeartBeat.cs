@@ -1,16 +1,36 @@
 using UnityEngine;
+using System.Collections;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class HeartBeat : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public float beatSize = 1.2f; // How much the heart scales up
+    public float beatSpeed = 0.2f; // Speed of the beat animation
+
+    public void Beat()
     {
-        
+        StartCoroutine(BeatAnimation());
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator BeatAnimation()
     {
-        
+        Vector3 originalScale = transform.localScale;
+        Vector3 enlargedScale = originalScale * beatSize; // Scale up
+
+        float t = 0;
+        while (t < 1)
+        {
+            t += Time.deltaTime / beatSpeed;
+            transform.localScale = Vector3.Lerp(originalScale, enlargedScale, t);
+            yield return null;
+        }
+
+        t = 0;
+        while (t < 1)
+        {
+            t += Time.deltaTime / beatSpeed;
+            transform.localScale = Vector3.Lerp(enlargedScale, originalScale, t);
+            yield return null;
+        }
     }
 }
+

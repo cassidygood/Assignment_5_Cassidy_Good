@@ -6,6 +6,10 @@ TagManager:
   tags:
   - TriggerObject
   - scoreText
+  - RareCoin
+  - MidCoin
+  - LowCoin
+  - Heart
   layers:
   - Default
   - TransparentFX
