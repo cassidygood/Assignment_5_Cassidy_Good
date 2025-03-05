@@ -3,6 +3,7 @@ using UnityEngine;
 public class CG_CoinPickup : MonoBehaviour
 {
     private int points = 10; // Default points
+    public float sizeIncrease = 0.1f; // How much the player grows per coin
 
     private void Start()
     {
@@ -11,15 +12,19 @@ public class CG_CoinPickup : MonoBehaviour
         {
             case "Ruby":
                 points = 50;
+                sizeIncrease = 0.3f; // Grow more for ruby coins
                 break;
             case "Gold":
                 points = 30;
+                sizeIncrease = 0.2f;
                 break;
             case "Moonstone":
                 points = 10;
+                sizeIncrease = 0.1f;
                 break;
             default:
                 points = 5; // Default value for unnamed or other coins
+                sizeIncrease = 0.05f; // Smaller growth for other coins
                 break;
         }
     }
