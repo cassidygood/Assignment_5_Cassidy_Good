@@ -11,6 +11,7 @@ TagManager:
   - LowCoin
   - Heart
   - Enemy
+  - Terrain
   layers:
   - Default
   - TransparentFX
