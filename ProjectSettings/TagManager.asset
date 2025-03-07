@@ -10,11 +10,12 @@ TagManager:
   - MidCoin
   - LowCoin
   - Heart
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Walkable
   - Water
   - UI
   - 
